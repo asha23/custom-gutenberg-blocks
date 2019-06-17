@@ -24,6 +24,8 @@
 
 define( 'CB_DIR' , plugin_dir_path( __FILE__ ) );
 
-// Block list
+// ACF fields
+require_once( CB_DIR . '/inc/acf-references.php' );
 
+// Block list
 require_once( CB_DIR . '/blocks/team-member/block-team-member.php' );
